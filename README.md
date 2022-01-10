@@ -70,6 +70,10 @@ builder”
     <img src="images/myping.png">
 </div>
 
+<div align="center">
+    <img src="images/tcpMyPing.png">
+</div>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -77,6 +81,10 @@ builder”
 
 <div align="center">
     <img src="images/pingFrag.png">
+</div>
+
+<div align="center">
+    <img src="images/tcpPingFrag.png">
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -87,12 +95,20 @@ builder”
     <img src="images/ping2.png">
 </div>
 
+<div align="center">
+    <img src="images/tcpMyPing2.png">
+</div>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Exercice-4
 
 <div align="center">
     <img src="images/demande.png">
+</div>
+
+<div align="center">
+    <img src="images/tcpdemande.png">
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
