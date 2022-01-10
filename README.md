@@ -134,7 +134,11 @@ différents champs des fragments IP ainsi générés.
 Dhcp starv :
 
 > DHCP configuration:
+
+`sudo nano /etc/dhcp/dhcpd.conf`
+
 ```sh
+
 authoritative;
 default-lease-time 600;
 max-lease-time 7200;
@@ -145,6 +149,9 @@ subnet 192.168.1.0 netmask 255.255.255.0
         option routers 192.168.1.1;
         interface eth1;
 }
+
+```
+ `sudo nano /etc/network/interfaces`
 
 ```sh
 auto lo
