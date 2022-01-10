@@ -66,6 +66,14 @@ builder”
 
 # Exercice-1
 
+Ce premier programme concerne un paquet IP encapsulant un paquet ICMP echo. Il s’agit
+d’envoyer un paquet ICMP echo d’une machine A en donnant comme adresse destination
+celle de B et comme adresse source celle de C. Vous devez observez en utilisant un sniffer
+(ethereal ou tcpdump) un paquet icmp echo et sa réponse transmise de la machine B vers la
+machine C. Avec ce premier exercice vous serez donc capable de générer un paquet IP et donc
+de maîtriser parfaitement les différents champs de IP
+
+
 <div align="center">
     <img src="images/myping.png">
 </div>
@@ -78,6 +86,13 @@ builder”
 
 
 # Exercice-2
+Le deuxième exercice consiste à concevoir deux fragments de paquet IP contenant à eux deux
+un paquet ICMP echo avec les mêmes types d’adresses que l’exercice précédent. Cet exercice
+vous permet de bien maîtriser la conception de fragments IP, ce qui est nécessaire pour
+l’attaque Teardrop. Vous remarquerez dans cette exercice que pour l’offset on fait un décalage
+de trois bits ….Dans le cas on vous ne comprenez ce calcul. Il vous est demander de faire un
+ping avec une taille de 2000 octets sur le lien ethernet et avec le sniffer vous analyserez les
+différents champs des fragments IP ainsi générés.
 
 <div align="center">
     <img src="images/pingFrag.png">
