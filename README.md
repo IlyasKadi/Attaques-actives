@@ -6,8 +6,8 @@
 <br />
 <div align="center">
     <img src="images/logo.png" alt="Logo" width="700" height="400">
-  <h2 align="center">TP 1</h2>
-  <h3 align="center">Attaques passives : sniffing passif</h3>
+  <h2 align="center">TP 2</h2>
+  <h3 align="center">Attaques actives</h3>
 </div>
 
 
@@ -42,8 +42,8 @@ l’attaquant si possible.
 </div>
 
 # Objectifs-de-ce-TP
-> Implémenter quelques attaques et les tester
-> Mise en place de quelques attaques en utilisant des outils d’attaques
+> - Implémenter quelques attaques et les tester
+> - Mise en place de quelques attaques en utilisant des outils d’attaques
 
 # Outils-logiciels
 > - Linux, 
@@ -55,26 +55,22 @@ builder”
 
 # Implémentation-attaques
 
-Vous trouvez avec le présent fichier, les 4 exercices ci-dessous déjà mis sous forme de
-programmes C. (pingfragments.c, pingsur2frag.c ,demandeconntcp.c , my_ping.c)
-Vous pouvez compiler ces programmes sous un interpréteur de commandes shell unix en
-utilisant le compilateur cc ou gcc.
-Exemple :
-#cc -c my_ping.c  pour compiler
-#cc my_ping.c –o myping  pour générer l’exécutable
-#./myping 127.0.0.1 127.0.0.1 500  pour envoyer un paquet de taille 528
-octets=500+20+8
-Vous pouvez observer certains résultats en utilisant un sniffer tel que wireshark.
+> Vous trouvez avec le présent fichier, les 4 exercices ci-dessous déjà mis sous forme de
+> programmes C. (pingfragments.c, pingsur2frag.c ,demandeconntcp.c , my_ping.c)
+> Vous pouvez compiler ces programmes sous un interpréteur de commandes shell unix en
+> utilisant le compilateur cc ou gcc.
+> Exemple :
+> #cc -c my_ping.c  pour compiler
+> #cc my_ping.c –o myping  pour générer l’exécutable
+> #./myping 127.0.0.1 127.0.0.1 500  pour envoyer un paquet de taille 528
+> octets=500+20+8
+> Vous pouvez observer certains résultats en utilisant un sniffer tel que wireshark.
 
 # Exercice-1
-
-
-
 
 <div align="center">
     <img src="images/compilation.png">
 </div>
-
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -96,7 +92,7 @@ Vous pouvez observer certains résultats en utilisant un sniffer tel que wiresha
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## La-fonction-qui-permet-d’afficher-l’entête-UDP
+## Test-de-quelques-outils
 
 
 
