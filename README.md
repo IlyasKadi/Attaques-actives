@@ -59,7 +59,6 @@ builder”
 > utilisant le compilateur cc ou gcc.
 > 
 > Exemple :
-> 
 > `cc -c my_ping.c`  pour compiler
 > `cc my_ping.c –o myping`  pour générer l’exécutable
 > `./myping 127.0.0.1 127.0.0.1 500`  pour envoyer un paquet de taille 528
