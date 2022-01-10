@@ -59,11 +59,10 @@ builder”
 > utilisant le compilateur cc ou gcc.
 > 
 > Exemple :
-> `cc -c my_ping.c`  pour compiler
-> `cc my_ping.c –o myping`  pour générer l’exécutable
-> `./myping 127.0.0.1 127.0.0.1 500`  pour envoyer un paquet de taille 528
+> - `cc -c my_ping.c`  pour compiler
+> - `cc my_ping.c –o myping`  pour générer l’exécutable
+> - `./myping 127.0.0.1 127.0.0.1 500`  pour envoyer un paquet de taille 528
 > octets=500+20+8
-> Vous pouvez observer certains résultats en utilisant un sniffer tel que wireshark.
 
 # Exercice-1
 
