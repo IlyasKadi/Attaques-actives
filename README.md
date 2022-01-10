@@ -96,7 +96,7 @@ builder”
 </div>
 
 <div align="center">
-    <img src="images/tcpMyPing2.png">
+    <img src="images/tcpPing2.png">
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
