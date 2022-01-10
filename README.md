@@ -131,8 +131,30 @@ différents champs des fragments IP ainsi générés.
 
 ## Test-de-quelques-outils
 
+Dhcp starv :
 
+> DHCP configuration:
+```sh
+authoritative;
+default-lease-time 600;
+max-lease-time 7200;
 
+subnet 192.168.1.0 netmask 255.255.255.0
+{
+        range 192.168.1.50 192.168.1.80;
+        option routers 192.168.1.1;
+        interface eth1;
+}
+
+```sh
+auto lo
+iface lo inet loopback
+
+allow-hotplug eth1
+iface eth1 inet static
+        address 192.168.1.1
+        gateway 192.168.1.1
+```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
