@@ -32,14 +32,12 @@
 
 # Les attaques actives
 
-Les attaques actives sont mises en place par l’injection, la modification ou la suppression de
-paquets. L’attaquant peut ainsi laisser les traces des attaques qu’il lance. Ces traces peuvent
-être exploitées par l’administrateur réseau pour déceler l’existence d’attaques et identifier
-l’attaquant si possible. 
+> Les attaques actives sont mises en place par l’injection, la modification ou la suppression de
+> paquets. L’attaquant peut ainsi laisser les traces des attaques qu’il lance. Ces traces peuvent
+> être exploitées par l’administrateur réseau pour déceler l’existence d’attaques et identifier
+> l’attaquant si possible. 
 
-<div align="center">
-    <img src="images/1-CS.jpg">
-</div>
+
 
 # Objectifs-de-ce-TP
 > - Implémenter quelques attaques et les tester
@@ -56,13 +54,15 @@ builder”
 # Implémentation-attaques
 
 > Vous trouvez avec le présent fichier, les 4 exercices ci-dessous déjà mis sous forme de
-> programmes C. (pingfragments.c, pingsur2frag.c ,demandeconntcp.c , my_ping.c)
+> programmes C. (`pingfragments.c`, `pingsur2frag.c` ,`demandeconntcp.`c , `my_ping.c`)
 > Vous pouvez compiler ces programmes sous un interpréteur de commandes shell unix en
 > utilisant le compilateur cc ou gcc.
+> 
 > Exemple :
-> #cc -c my_ping.c  pour compiler
-> #cc my_ping.c –o myping  pour générer l’exécutable
-> #./myping 127.0.0.1 127.0.0.1 500  pour envoyer un paquet de taille 528
+> 
+> `cc -c my_ping.c`  pour compiler
+> `cc my_ping.c –o myping`  pour générer l’exécutable
+> `./myping 127.0.0.1 127.0.0.1 500`  pour envoyer un paquet de taille 528
 > octets=500+20+8
 > Vous pouvez observer certains résultats en utilisant un sniffer tel que wireshark.
 
@@ -77,17 +77,25 @@ builder”
 
 # Exercice-2
 
-
+<div align="center">
+    <img src="images/1-CS.jpg">
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Exercice-3
 
+<div align="center">
+    <img src="images/1-CS.jpg">
+</div>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 # Exercice-4
 
-
+<div align="center">
+    <img src="images/1-CS.jpg">
+</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
