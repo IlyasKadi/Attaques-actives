@@ -162,6 +162,16 @@ iface eth1 inet static
         address 192.168.1.1
         gateway 192.168.1.1
 ```
+
+Manipulation :
+```sh
+tar –xvf dhcpstarv-0.2.1.tar.gz
+cd dhcpstarv-0.2.1
+./configure
+make
+make install
+```
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
