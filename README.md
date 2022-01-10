@@ -67,7 +67,7 @@ builder”
 # Exercice-1
 
 <div align="center">
-    <img src="images/compilation.png">
+    <img src="images/myping.png">
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -76,7 +76,7 @@ builder”
 # Exercice-2
 
 <div align="center">
-    <img src="images/1-CS.jpg">
+    <img src="images/pingFrag.jpg">
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -84,7 +84,7 @@ builder”
 # Exercice-3
 
 <div align="center">
-    <img src="images/1-CS.jpg">
+    <img src="images/ping2.jpg">
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -92,7 +92,7 @@ builder”
 # Exercice-4
 
 <div align="center">
-    <img src="images/1-CS.jpg">
+    <img src="images/demande.jpg">
 </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
