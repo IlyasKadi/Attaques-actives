@@ -162,6 +162,9 @@ iface eth1 inet static
         address 192.168.1.1
         gateway 192.168.1.1
 ```
+> DHCP sever success 
+![dhcp_server](https://user-images.githubusercontent.com/80456274/149789504-6618ba73-c188-4348-8ceb-bb1bb2593dab.png)
+
 
 Manipulation :
 ```sh
@@ -171,6 +174,11 @@ cd dhcpstarv-0.2.1
 make
 make install
 ```
+![config](https://user-images.githubusercontent.com/80456274/149789444-0b324734-6014-493b-bed1-a862b48caa27.png)
+
+> Visualisation sur Wireshark
+ ![dhcpstarv](https://user-images.githubusercontent.com/80456274/149789975-d8999a88-37c9-42e1-9979-f45807bfe03c.png)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
