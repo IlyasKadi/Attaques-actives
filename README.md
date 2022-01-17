@@ -197,7 +197,9 @@ Activer le routage :
  root# sysctl -w net.ipv4.ip_forward=1
  ```
  ![WhatsApp Image 2022-01-09 at 1 34 40 PM](https://user-images.githubusercontent.com/85891554/148683977-f164ced7-6431-496b-b188-84eca5fa7282.jpeg)
+ 
  ## Etape 2 : empoisonner les tables ARP des nœuds victimes
+ 
  Lancer une communication entre les deux nœuds légtimes (exemple : ping) puis afficher le contenu de 
 leur table arp (arp -a). Exécuter, ensuite, l'attaque arpspoof.
 
@@ -206,31 +208,38 @@ root#arpspoof -i eth0 -t 192.168.1.3 192.168.1.4
 root#arpspoof -i eth0 -t 192.168.1.4 192.168.1.3
 ```
 ![WhatsApp Image 2022-01-09 at 1 34 39 PM](https://user-images.githubusercontent.com/85891554/148683990-821599f6-b064-40c2-aa23-ed6c57d0dc78.jpeg)
+
 on utilise Wireshark pour afficher le trafic capturé par l'attaquant
-```cpp
-root#wireshark
-```
+
 ![WhatsApp Image 2022-01-09 at 1 34 41 PM](https://user-images.githubusercontent.com/85891554/148683982-89957d90-bcec-4a83-b30d-ee870fa679ca.jpeg)
 les tables arp apres l'attaque 
 
 ![WhatsApp Image 2022-01-09 at 1 34 41 PM (2)](https://user-images.githubusercontent.com/85891554/148684361-d9e26b60-781f-406c-b538-43345a2a8517.jpeg)
+
 # Attaque “usurpation d’identité”
 Dans cette partie, nous utiliserons l'outil « cat Karat packet Builder » :
 Tout d'abord, on choisit l'interface qu'on veut attaquer, puis on choisit le protocole
 et la taille des paquets :
 ![Capture d’écran 2022-01-10 000202](https://user-images.githubusercontent.com/85891554/148735360-ce8d50a8-fdee-4d6a-8362-df80abb38147.png)
+
 ## manip 1:
 Maintenant, nous envoyons une requête Arp :
 Nous devons déterminer l'adresse IP et l'adresse Mac de la source et de la destination
+
 ![Capture d’écran 2022-01-10 000202](https://user-images.githubusercontent.com/85891554/148735360-ce8d50a8-fdee-4d6a-8362-df80abb38147.png)
+
 Nous suivons le trafic en utilisant le wireshark :
+
 ![Capture d’écran 2022-01-10 000221](https://user-images.githubusercontent.com/85891554/148735366-3796d3bc-e52e-4781-83e4-c934c58ce70a.png)
+
 manip 2:
 Nous devons déterminer l'adresse IP et l'adresse Mac de la source et de la destination
 ![Capture d’écran 2022-01-10 000202](https://user-images.githubusercontent.com/85891554/148735360-ce8d50a8-fdee-4d6a-8362-df80abb38147.png)
 ![Capture d’écran 2022-01-10 000221](https://user-images.githubusercontent.com/85891554/148735366-3796d3bc-e52e-4781-83e4-c934c58ce70a.png)
+
 ## Attaque “ARP cache poisoning”
 # Ettercap 
+
 ![WhatsApp Image 2022-01-09 at 1 34 37 PM](https://user-images.githubusercontent.com/85891554/148774118-b1334275-d10f-4231-84ac-d7077e8fa394.jpeg)
 ![WhatsApp Image 2022-01-09 at 1 34 37 PM (1)](https://user-images.githubusercontent.com/85891554/148774129-7c4309aa-2631-4863-8cd0-46766bcb604f.jpeg)
 
