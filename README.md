@@ -183,7 +183,9 @@ GNS3) ou à un point d'accès sans fil. Le nœud attaquant sera la machine sur l
 système d'exploitation « Kali Linux »
 
 > les tables arp avant l'attaque 
+
 ![WhatsApp Image 2022-01-09 at 1 34 41 PM (1)](https://user-images.githubusercontent.com/85891554/148683986-43cd377d-b2d6-4ffa-9faa-92c455682e79.jpeg)
+
 ## Etape 1 : activer le routage dans le nœud attaquant (Kali Linux)
 Tester si le routage est activé en utilisant la commande sysctl ou en cherchant la valeur de ip_forward
 dans /proc/sys/ipv4
