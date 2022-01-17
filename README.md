@@ -223,6 +223,7 @@ et la taille des paquets :
 ![Capture d’écran 2022-01-10 000202](https://user-images.githubusercontent.com/85891554/148735360-ce8d50a8-fdee-4d6a-8362-df80abb38147.png)
 
 ## manip 1:
+
 Maintenant, nous envoyons une requête Arp :
 Nous devons déterminer l'adresse IP et l'adresse Mac de la source et de la destination
 
@@ -232,8 +233,10 @@ Nous suivons le trafic en utilisant le wireshark :
 
 ![Capture d’écran 2022-01-10 000221](https://user-images.githubusercontent.com/85891554/148735366-3796d3bc-e52e-4781-83e4-c934c58ce70a.png)
 
-manip 2:
-Nous devons déterminer l'adresse IP et l'adresse Mac de la source et de la destination
+## manip 2:
+
+**Nous devons déterminer l'adresse IP et l'adresse Mac de la source et de la destination**
+
 ![Capture d’écran 2022-01-10 000202](https://user-images.githubusercontent.com/85891554/148735360-ce8d50a8-fdee-4d6a-8362-df80abb38147.png)
 ![Capture d’écran 2022-01-10 000221](https://user-images.githubusercontent.com/85891554/148735366-3796d3bc-e52e-4781-83e4-c934c58ce70a.png)
 
